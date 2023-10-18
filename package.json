@@ -2,9 +2,11 @@
   "name": "koding",
   "version": "1.0.0",
   "main": "server.js",
-  
   "keywords": [],
   "author": "aksle",
   "license": "ISC",
-  "description": ""
+  "description": "this is testttt",
+  "scripts": {
+    "start": "node server.js"
+  }
 }

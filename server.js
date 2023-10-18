@@ -2,7 +2,6 @@ const http = require("http")
 const port = 8080
 const host = 'localhost'
 const fs = require('fs').promises
-
 const requestListener = function (req, res) {
     fs.readFile(__dirname + "/index.html")
         .then(contents => {
