@@ -1,7 +1,7 @@
 FROM node:20-slim
 
 WORKDIR /app
-EXPOSE 8080
+EXPOSE 8080/TCP
 COPY package.json package.json
 COPY package-lock.json package-lock.json
 
